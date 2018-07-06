@@ -1,0 +1,31 @@
+# aws pip install pymysql
+
+# ec2-user:~/environment $ sudo pip install pymysql
+
+
+Collecting pymysql
+  Downloading https://files.pythonhosted.org/packages/a7/7d/682c4a7da195a678047c8f1c51bb7682aaedee1dca7547883c3993ca9282/PyMySQL-0.9.2-py2.py3-none-any.whl (47kB)
+    100% |████████████████████████████████| 51kB 5.6MB/s 
+Collecting cryptography (from pymysql)
+  Downloading https://files.pythonhosted.org/packages/fa/f4/3cde3604972dfa2b0fea85b9711948bb4fb70ab64095322aef35071bd254/cryptography-2.2.2-cp34-abi3-manylinux1_x86_64.whl (2.2MB)
+    100% |████████████████████████████████| 2.2MB 618kB/s 
+Collecting asn1crypto>=0.21.0 (from cryptography->pymysql)
+  Downloading https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl (101kB)
+    100% |████████████████████████████████| 102kB 7.7MB/s 
+Collecting cffi>=1.7; platform_python_implementation != "PyPy" (from cryptography->pymysql)
+  Downloading https://files.pythonhosted.org/packages/6d/c0/47db8f624f3e4e2f3f27be03a93379d1ba16a1450a7b1aacfa0366e2c0dd/cffi-1.11.5-cp36-cp36m-manylinux1_x86_64.whl (421kB)
+    100% |████████████████████████████████| 430kB 2.9MB/s 
+Requirement already satisfied: six>=1.4.1 in /usr/local/lib/python3.6/site-packages (from cryptography->pymysql)
+Collecting idna>=2.1 (from cryptography->pymysql)
+  Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 7.5MB/s 
+Collecting pycparser (from cffi>=1.7; platform_python_implementation != "PyPy"->cryptography->pymysql)
+  Downloading https://files.pythonhosted.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz (245kB)
+    100% |████████████████████████████████| 256kB 4.4MB/s 
+Installing collected packages: asn1crypto, pycparser, cffi, idna, cryptography, pymysql
+  Running setup.py install for pycparser ... done
+Successfully installed asn1crypto-0.24.0 cffi-1.11.5 cryptography-2.2.2 idna-2.7 pycparser-2.18 pymysql-0.9.2
+You are using pip version 9.0.3, however version 10.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
